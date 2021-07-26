@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl {
+	margin-bottom: 20px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.leftcolumn ul, .rightcolumn ul {
+	margin-left: 25px;
+}
+
+body {
+	font-size: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #000;
+	line-height: 1.5;
+}
+
+h1 {
+	font-size: 2em;
+	color: #03C;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #03C;
+}
+
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-image: url(images/2col_bkgd_fixed.gif);
+	background-repeat: repeat-y;
+}
+
+header {
+	background-image: url(images/banner.jpg);
+	background-repeat: repeat-y;
+	height: 150px;
+}
+
+nav {
+	background-color: #003;
+	padding: 15px 0 15px 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	width: auto;
+	padding: 5px 12px;
+	margin-right: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+nav ul li a:hover {
+	color: #fdfdab;
+}
+
+nav:after {
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.leftcolumn {
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+	padding: 30px;
+}
+
+.rightcolumn {
+	width: 740px;
+	float: left;
+	padding: 30px;
+}
+
+footer {
+	clear: both;
+	padding: 10px;
+	background-color: #CCC;
+}

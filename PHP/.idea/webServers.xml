@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a78365b5-a18e-401b-9779-d6f673d45dad" name="Bitlamp" url="http://eewing1.bitlampsites.com/php1">
+        <fileTransfer rootFolder="/public_html/php1" accessType="SFTP" host="eewing1.bitlampsites.com" port="22" sshConfigId="65ab2211-460e-41bb-94f1-562027fa82e9" sshConfig="eewing1@eewing1.bitlampsites.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

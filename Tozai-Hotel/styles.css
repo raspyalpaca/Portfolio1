@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+main ul{
+	margin: 0 0 0 30px;
+}
+
+header{
+	height: 120px;
+}
+
+/*img{
+	height: 120px;
+	width: 960px;
+	text-align:center;
+	margin: 0 auto;
+	padding: 0;
+} */
+
+h1{
+	color: lightskyblue;
+}
+
+body{
+	background-color: lightslategrey;
+	font-family: Helvetica, Arial, "sans-serif";
+}
+
+.wrapper{
+	width: 960px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+
+hr{
+	border: 1px solid darkgrey;
+}
+
+footer{
+	padding: 20px;
+	clear: both; 
+}

@@ -1,0 +1,19 @@
+-- Write a query that outputs a list of album name and artist name sorted by artist name (joining the artist and album tables).
+SELECT Album.Title, Artist.Name
+FROM Artist
+JOIN Album ON Album.ArtistId = Artist.ArtistId
+ORDER BY Artist.Name;
+
+# Write a query that outputs a list of invoice date, customer name and invoice total where the invoice total is greater than $10, sorted by invoice date (joining the invoice and customer tables).
+SELECT Invoice.InvoiceDate, Customer.FirstName, Customer.LastName, Invoice.Total
+FROM Invoice
+JOIN Customer ON Customer.CustomerId = Invoice.CustomerId
+WHERE Invoice.Total > 10
+ORDER BY Invoice.InvoiceDate;
+
+-- Write a query that outputs a list of track name, album name and genre name sorted by album name (joining the track, album and genre tables).
+SELECT Track.Name AS TrackName, Album.Title AS AlbumName, Genre.Name AS GenreName 
+FROM Track
+JOIN Album ON Track.AlbumId = Album.AlbumId
+JOIN Genre ON Genre.GenreId = Track.GenreId
+ORDER BY Album.Title;
